@@ -40,15 +40,15 @@ function countEvenNumbers(arrayOfNumbers) {
   let length = arrayOfNumbers.length;
   let count = 0;
 
-  for(let i = 0; i < length; i++){
-    if(length[i] % 2 == 0){
-      count++;
+  for(let i = 0; i <= length; i++){
+    if(arrayOfNumbers[i] % 2 == 0){
+      count +=1;
+       
     }
-    return (count);
     
   }
-    
-  }
+ return (count);
+}
 assignment.countEvenNumbers = countEvenNumbers;
 
 /**
